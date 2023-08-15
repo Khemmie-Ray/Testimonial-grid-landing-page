@@ -32,7 +32,7 @@ body {
 
 /* ============ Typography ================ */
 
-h1, h2, .profile p {
+h1, .username h2, .profile p {
     margin: 0;
 }
 
@@ -45,11 +45,11 @@ p {
     color: var(--Light-gray);
 }
 
-h1, h2 {
+h1, .username h2 {
     font-size: 1.2rem;
 }
 
-h3 {
+.content h2 {
     font-size: 1.5rem;
 }
 
@@ -143,6 +143,10 @@ main {
         grid-row: 5;
         margin-bottom: 1em;
     }  
+
+    footer {
+        padding: 2em 0;
+    }
 }
 
 @media (min-width: 760px) and (max-width: 920px) {
